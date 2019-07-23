@@ -1,0 +1,175 @@
+.body1 {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    border-top: green 5px solid;
+    border-left: green 5px solid;
+    border-right: green 5px solid;
+    border-bottom: green 5px solid;
+
+}
+
+
+.body3 {
+
+    border: 3px green;
+    border-radius: 15px;
+    padding: -10px;
+    font-size: px;
+
+
+}
+
+#caballo1 {
+    padding: 5px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#caballo2 {
+    padding: 5px;
+    position: absolute;
+    margin-top: 70px;
+    width: 50px;
+    height: 50px;
+}
+
+#caballo3 {
+    padding: 5px;
+    position: absolute;
+    margin-top: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+#caballo4 {
+    padding: 5px;
+    position: absolute;
+    margin-top: 220px;
+    width: 50px;
+    height: 50px;
+}
+
+#meta1 {
+    padding: 5px;
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    left: 85%;
+
+}
+
+#meta2 {
+    padding: 5px;
+    position: absolute;
+    margin-top: 70px;
+    width: 30px;
+    height: 50px;
+    left: 85%;
+}
+
+#meta3 {
+    padding: 5px;
+    position: absolute;
+    margin-top: 150px;
+    width: 30px;
+    height: 50px;
+    left: 85%;
+}
+
+#meta4 {
+    padding: 5px;
+    position: absolute;
+    margin-top: 220px;
+    width: 30px;
+    height: 50px;
+    left: 85%;
+}
+
+.control {
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin-top: 270px;
+}
+
+#Jugadores {
+
+    width: 50%;
+    margin-left: 50px;
+
+    padding-left: 40px;
+
+}
+
+
+
+#Ganador {
+    width: 50%;
+    margin-left: 50px;
+
+    padding-left: 40px;
+}
+
+#Iniciar {
+    padding: 10px;
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#Borrar {
+    padding: 10px;
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#Jugador {
+    padding: 15px;
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+}
+
+.body2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -20px;
+    color: blue
+}
+
+@media (min-width: 992px) {
+    .body {
+        width: 100%;
+    }
+
+    .body3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body2 {
+        width: 100%;
+    }
+
+    #Iniciar {
+        width: 47%;
+    }
+
+    #Borrar {
+        width: 47%;
+    }
+
+    #Jugadores {
+        width: 85%;
+    }
+
+    #Ganador {
+        width: 85%;
+    }
+
+}
